@@ -1,8 +1,8 @@
-package com.example.monitoring.dao;
+package com.example.monitoring.mapper;
 //com.example.monitoring.mapper
 import com.example.monitoring.dto.TestDTO;
 import java.util.List;
 
-public interface QueryDAO {
+public interface QueryMapper {
     List<TestDTO> getTestData();
 }
