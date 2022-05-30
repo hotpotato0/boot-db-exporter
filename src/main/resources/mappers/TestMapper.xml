@@ -8,4 +8,13 @@
         from
         DB_TEST
     </select>
+    <select id="getLableData" resultType="com.example.monitoring.dto.LabelDTO">
+        select
+            title as "title",
+            name as "subtitle",
+            1 as value
+        from
+            DB_TEST
+        limit 1
+    </select>
 </mapper>
